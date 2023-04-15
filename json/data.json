@@ -1,0 +1,28 @@
+[
+  {
+    "brand": "Rent",
+    "date": "11.04.2023",
+    "status": false,
+    "due": "Ksh.2800",
+    "more": "Pay before...",
+    "img": "assets/images/house.png"
+  },
+  {
+    "brand": "Netflix",
+    "date": "13.05.2023",
+    "status": false,
+    "due": "Ksh.3200",
+    "more": "Your subscription is due",
+    "img": "assets/images/netflix.png"
+
+  },
+  {
+    "brand": "Flash wifi",
+    "date": "16.05.2023",
+    "status": false,
+    "due": "Ksh.3000",
+    "more": "Make sure to pay..",
+    "img": "assets/images/net.png"
+
+  }
+]
