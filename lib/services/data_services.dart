@@ -6,7 +6,7 @@ import 'package:flutter/services.dart';
 import '../model/data_model.dart';
 
 class DataServices{
-  String _baseUrl="http://127.0.0.1:8000/api";
+  String _baseUrl="http://gambo.rickieyngambo.xyz/bills/api";
   Future<List<DataModel>>getUsers() async {
     var apiUrl="/billinfo";
     http.Response response =await http.get(

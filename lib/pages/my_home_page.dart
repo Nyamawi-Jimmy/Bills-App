@@ -235,10 +235,10 @@ class _MyHomePageState extends State<MyHomePage> {
                                   border: Border.all(
                                       width: 2, color: Colors.redAccent),
                                   image: DecorationImage(
-                                      image: AssetImage(
+                                      image: NetworkImage(
                                         //"assets/images/brand1.png"
-                                        _controller.list[index].brand_logo,
-                                       // "http://127.0.0.1:8000/uploads/images/house.png"
+                                        //_controller.list[index].brand_logo,
+                                        "http://gambo.rickieyngambo.xyz/bills/uploads/"+_controller.list[index].brand_logo
                                   ))),
                             ),
                             const SizedBox(
@@ -253,7 +253,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                       fontSize: 16, fontWeight: FontWeight.bold),
                                 ),
                                 Text(
-                                  _controller.list[index].brand_id.toString(),
+                                  "ID "+_controller.list[index].brand_id.toString(),
                                   style: const TextStyle(
                                       fontWeight: FontWeight.w600,
                                       color: Colors.grey,
